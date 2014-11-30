@@ -11,6 +11,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    charactersheet.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    charactersheet.h

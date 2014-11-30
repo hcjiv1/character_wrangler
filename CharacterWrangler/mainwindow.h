@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "charactersheet.h"
+
 #include <QtGui/QMainWindow>
 #include <QAction>
 
@@ -21,6 +23,8 @@ private:
 
     QAction* _newAction;
     QAction* _exitAction;
+
+    CharacterSheet* _characterSheet;
 };
 
 #endif // MAINWINDOW_H
